@@ -1,2 +1,5 @@
-# sdsthesis
-machine learning models for Anishinaabemowin
+# Senior Thesis for Yale University 
+
+Echo: Machine Learning for an Anishinaabemowin Text Generation
+
+This report examines the efficacy of fine-tuning a large language model (LLM) on Anishinaabemowin to develop an autocomplete feature, using a small dataset of approximately 10,000 words. The study compares the performance of four models: Gated Recurrent Units (GRUs), GPT-2 transformer, a non-English pre-trained GPT-2 transformer, and n-grams. For each model, an English-language comparison is provided as a control measure. A key question addressed is whether English-language pre-training facilitates or hinders the fine-tuning process for Anishinaabemowin. Results demonstrate that GRUs outperform the other models when training data is very limited. Additionally, English pre-training does not improve performance and, in fact, negatively impacts the model's ability to learn Anishinaabemowin. The findings suggest that while more data is needed for optimal results, this proof of concept shows that effective autocomplete systems for Anishinaabemowin may be feasible, especially if more data is accessible. 
